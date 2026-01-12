@@ -2,8 +2,8 @@ html {
   font-size: 18px;
 }
 
-body{
-    background-color: #F5F7FA;
+body {
+  background-color: #EFE7DD;
 }
 
 h1 {
@@ -27,13 +27,22 @@ h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  margin-left: 69px;
+  margin-left: 75px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel", serif;
 }
 
 table {
   border-collapse: collapse;
   width: 90%;
   margin: 0 auto;
+  font-family: "Old Standard TT",serif;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
 }
 
 th,
@@ -46,6 +55,10 @@ td {
   text-align: left;
 }
 
+tr{
+    background-color: rgb(232, 223, 223);
+}
+
 th {
   text-transform: uppercase;
   background-color: #dbcebd;
@@ -53,10 +66,18 @@ th {
 
 tr > td:nth-child(-n + 2) {
   text-align: center;
+  width: 15%;
 }
 
-.tr-color{
-    background-color: #BDCADB;
+tr > td:nth-child(2) {
+  text-transform: uppercase;
 }
 
+tr > th:nth-child(3){
+    text-align: left;
+    padding-left: 2rem;
+}
 
+.tr-color {
+  background-color: #bdcadb;
+}
